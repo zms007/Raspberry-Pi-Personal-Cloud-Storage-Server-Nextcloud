@@ -13,6 +13,9 @@ Creating a personal cloud storage server with a Raspberry Pi is a great project.
 - Monitor, keyboard, and mouse (for initial setup)
 
 Step 1: Set Up the Raspberry Pi
+
 Step 2: Install and Configure Nextcloud
+
 Step 3: Mount External Storage (Optional)
+
 Step 4: Access Your Personal Cloud
