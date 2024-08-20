@@ -1,0 +1,23 @@
+**Step 1: Set Up the Raspberry Pi**
+===
+
+1. **Install Raspbian OS:**
+   - Use the Raspberry Pi Imager to flash the latest Raspbian OS onto your MicroSD card.
+   - Insert the MicroSD card into the Raspberry Pi.
+   - Connect the Raspberry Pi to a monitor, keyboard, and mouse.
+   - Power on the Raspberry Pi.
+
+2. **Update the System:**
+   - Open the terminal and run the following commands:
+     ```
+     sudo apt-get update
+     sudo apt-get upgrade -y
+     ```
+
+3. **Enable SSH (Optional, for remote access):**
+   - Run:
+     ```
+     sudo raspi-config
+     ```
+   - Navigate to `Interface Options > SSH` and enable it.
+   - You can now access your Raspberry Pi remotely using SSH.
