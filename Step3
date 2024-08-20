@@ -1,0 +1,28 @@
+**Step 3: Mount External Storage (Optional)**
+===
+If you want to use an external hard drive for storage:
+
+1. **Identify the drive:**
+   ```
+   sudo fdisk -l
+   ```
+
+2. **Create a mount point:**
+   ```
+   sudo mkdir /media/usb
+   ```
+
+3. **Mount the drive:**
+   ```
+   sudo mount /dev/sda1 /media/usb
+   ```
+
+4. **Make the mount permanent (Optional):**
+   - Edit `fstab`:
+     ```
+     sudo nano /etc/fstab
+     ```
+   - Add the following line:
+     ```
+     /dev/sda1 /media/usb auto defaults,nofail 0 0
+     ```
