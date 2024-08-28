@@ -30,9 +30,9 @@ Nextcloud is a popular open-source software for personal cloud storage.
 
 4. **Download and Install Nextcloud:**
    ```
-   wget https://download.nextcloud.com/server/releases/nextcloud-24.0.1.zip
+   wget https://download.nextcloud.com/server/releases/nextcloud-29.0.5.zip
    sudo apt-get install unzip -y
-   unzip nextcloud-24.0.1.zip
+   unzip nextcloud-29.0.5.zip
    sudo mv nextcloud /var/www/html/nextcloud
    ```
 
